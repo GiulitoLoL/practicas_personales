@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios HTML, CSS y JS</title>
+    <link rel="stylesheet" href="css/01_style.css">
+</head>
+    <body>
+        <!-- Ejercicio 1 -->
+        <div class="section" id="ej1">
+            <h2>Ejercicio 1: Cambiar color de fondo</h2>
+            <button onclick="cambiarColorFondo()">Cambiar Color</button>
+        </div>
+
+        <!-- Ejercicio 2 -->
+        <div class="section" id="ej2">
+            <h2>Ejercicio 2: Validación de formulario</h2>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Nombre" />
+                <br /><br />
+                <button type="submit">Enviar</button>
+                <div class="error" id="error"></div>
+            </form>
+        </div>
+
+        <!-- Ejercicio 3 -->
+        <div class="section" id="ej3">
+            <h2>Ejercicio 3: Contador</h2>
+            <div class="counter" id="contador">0</div>
+            <div class="buttons">
+                <button onclick="modificarContador(1)">Sumar</button>
+                <button onclick="modificarContador(-1)">Restar</button>
+                <button onclick="reiniciarContador()">Reiniciar</button>
+            </div>
+        </div>
+
+        <script src="json/01_json.js"></script>
+    </body>
+</html>
